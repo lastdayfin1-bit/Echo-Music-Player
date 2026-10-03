@@ -6,11 +6,9 @@
 
 Your music, your library, your listening history — with synced lyrics, a built-in assistant, Discord Rich Presence and much more.
 
-[**Download**](#download) · [What's new](#whats-new-in-020) · [Features](#features) · [Install](#install) · [FAQ](#faq)
+[**Download**](#download) · [What's new](#whats-new-in-020) · [Screenshots](#screenshots) · [Features](#features) · [Install](#install) · [FAQ](#faq)
 
-<!-- TODO: add a screenshot
-<img src="docs/screenshot.png" alt="Echo" width="800">
--->
+<img src="docs/screenshots/home.jpg" alt="Echo — home screen" width="820">
 
 </div>
 
@@ -38,6 +36,13 @@ macOS and Linux builds are planned.
 - **Settings** — redesigned controls (segmented pickers, switches, action buttons) with consistent depth, hover and focus states.
 
 Full list in the [changelog](CHANGELOG.md).
+
+## Screenshots
+
+| Home | Now Playing |
+|---|---|
+| <img src="docs/screenshots/home.jpg" width="100%" alt="Home — recommendations, your library and the now-playing rail"> | <img src="docs/screenshots/now-playing.jpg" width="100%" alt="Now Playing — fullscreen player with the queue browser"> |
+| <img src="docs/screenshots/lyrics.jpg" width="100%" alt="Lyrics — synced lines with the current-line card and the upcoming track peek"> | <img src="docs/screenshots/now-playing-lyrics.jpg" width="100%" alt="Now Playing — lyrics over the fullscreen player"> |
 
 ## Features
 
