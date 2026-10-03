@@ -16,7 +16,7 @@ Your music, your library, your listening history — with synced lyrics, a built
 
 ## Download
 
-> Latest release: **[Echo v0.2.1](https://github.com/lastdayfin1-bit/echo-releases/releases/latest)**
+> Latest release: **[Echo v0.2.1](https://github.com/lastdayfin1-bit/Echo-Music-Player/releases/latest)**
 
 | Platform | File | Notes |
 |---|---|---|
@@ -68,7 +68,7 @@ Full list in the [changelog](CHANGELOG.md).
 
 ### Windows
 
-1. Download `Echo_0.2.1_x64-setup.exe` from the [latest release](https://github.com/lastdayfin1-bit/echo-releases/releases/latest).
+1. Download `Echo_0.2.1_x64-setup.exe` from the [latest release](https://github.com/lastdayfin1-bit/Echo-Music-Player/releases/latest).
 2. Run the installer.
 3. If Windows SmartScreen shows *"Windows protected your PC"*, click **More info → Run anyway**.
    Echo is not yet code-signed, so this warning is expected — the binary is built directly from the author's machine.
@@ -107,7 +107,7 @@ Temporarily paused in this build — see [Known issues](#known-issues).
 Planned. Follow this repository to get notified.
 
 **Something is broken / I have an idea.**
-[Open an issue](https://github.com/lastdayfin1-bit/echo-releases/issues) — include your Windows version and, if it's a playback problem, the track and what happened.
+[Open an issue](https://github.com/lastdayfin1-bit/Echo-Music-Player/issues) — include your Windows version and, if it's a playback problem, the track and what happened.
 
 ## License
 
@@ -115,5 +115,5 @@ Copyright © 2026. **All rights reserved.** See [LICENSE](LICENSE).
 
 ## Links
 
-- Issues & feedback: [open an issue](https://github.com/lastdayfin1-bit/echo-releases/issues)
-- Releases: [github.com/lastdayfin1-bit/echo-releases/releases](https://github.com/lastdayfin1-bit/echo-releases/releases)
+- Issues & feedback: [open an issue](https://github.com/lastdayfin1-bit/Echo-Music-Player/issues)
+- Releases: [github.com/lastdayfin1-bit/Echo-Music-Player/releases](https://github.com/lastdayfin1-bit/Echo-Music-Player/releases)
