@@ -10,6 +10,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/) and versions 
 - **The first-run artist picker had nothing to choose from** for the same reason — suggestions are back.
 - **Home chart rows and the genre browser** were affected too; they are rebuilt from the same source.
 - The app keeps the original endpoints as the primary path, so nothing changes if Deezer restores them.
+-Added the ability to resize the left sidebar.
 
 ## [0.2.0] - 2026-10-03
 
