@@ -6,7 +6,7 @@
 
 Your music, your library, your listening history — with synced lyrics, a built-in assistant, Discord Rich Presence and much more.
 
-[**Download**](#download) · [What's new](#whats-new-in-020) · [Screenshots](#screenshots) · [Features](#features) · [Install](#install) · [FAQ](#faq)
+[**Download**](#download) · [What's new](#whats-new) · [Screenshots](#screenshots) · [Features](#features) · [Install](#install) · [FAQ](#faq)
 
 <img src="docs/screenshots/home.jpg" alt="Echo — home screen" width="820">
 
@@ -16,16 +16,20 @@ Your music, your library, your listening history — with synced lyrics, a built
 
 ## Download
 
-> Latest release: **[Echo v0.2.0](https://github.com/lastdayfin1-bit/echo-releases/releases/latest)**
+> Latest release: **[Echo v0.2.1](https://github.com/lastdayfin1-bit/echo-releases/releases/latest)**
 
 | Platform | File | Notes |
 |---|---|---|
-| Windows 10 / 11 (64-bit) | `Echo_0.2.0_x64-setup.exe` | NSIS installer — **recommended** |
-| Windows 10 / 11 (64-bit) | `Echo_0.2.0_x64_en-US.msi` | MSI installer (enterprise-friendly) |
+| Windows 10 / 11 (64-bit) | `Echo_0.2.1_x64-setup.exe` | NSIS installer — **recommended** |
+| Windows 10 / 11 (64-bit) | `Echo_0.2.1_x64_en-US.msi` | MSI installer (enterprise-friendly) |
 
 macOS and Linux builds are planned.
 
-## What's new in 0.2.0
+## What's new
+
+**0.2.1** — *artist data restored.* Deezer retired the chart/top endpoints the app relied on, which left artist pages without their popular tracks and the first-run picker without artists to choose from. Both are now rebuilt from the endpoints that are still served, so popular tracks, similar artists and suggestions load again.
+
+### 0.2.0 highlights
 
 - **Better sound** — per-track level analysis: loudness normalisation plus real clipping protection (a measured peak ceiling), so loud masters no longer distort and quiet ones no longer disappear.
 - **Refined interface** — a new pixel wordmark, deeper panels and cards across the app, and crisper controls at every UI zoom level.
@@ -64,7 +68,7 @@ Full list in the [changelog](CHANGELOG.md).
 
 ### Windows
 
-1. Download `Echo_0.2.0_x64-setup.exe` from the [latest release](https://github.com/lastdayfin1-bit/echo-releases/releases/latest).
+1. Download `Echo_0.2.1_x64-setup.exe` from the [latest release](https://github.com/lastdayfin1-bit/echo-releases/releases/latest).
 2. Run the installer.
 3. If Windows SmartScreen shows *"Windows protected your PC"*, click **More info → Run anyway**.
    Echo is not yet code-signed, so this warning is expected — the binary is built directly from the author's machine.

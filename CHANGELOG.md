@@ -3,6 +3,14 @@
 All notable changes to Echo are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/) and versions use [Semantic Versioning](https://semver.org/).
 
+## [0.2.1] - 2026-10-03
+
+### Fixed
+- **Artist pages were empty.** Deezer retired the chart/top endpoints the app used (`/artist/:id/top`, `/artist/:id/related`, `/artist/:id/radio`, `/chart/:id`), so popular tracks, "fans also like" and the artist radio never loaded.
+- **The first-run artist picker had nothing to choose from** for the same reason — suggestions are back.
+- **Home chart rows and the genre browser** were affected too; they are rebuilt from the same source.
+- The app keeps the original endpoints as the primary path, so nothing changes if Deezer restores them.
+
 ## [0.2.0] - 2026-10-03
 
 ### Added
