@@ -3,6 +3,11 @@
 All notable changes to Echo are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/) and versions use [Semantic Versioning](https://semver.org/).
 
+## [0.2.6] - 2026-10-20
+
+### Added
+- **In-app updates** — Echo now checks GitHub releases itself (Tauri updater, signed builds). When a new version exists a Liquid Glass dialog shows the release notes, downloads the installer with a live progress bar and installs on restart. Auto-check on startup (toggleable) plus a manual check, current version and last-check time in Settings › Motore.
+
 ## [0.2.5] - 2026-10-20
 
 ### Fixed
