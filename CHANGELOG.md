@@ -3,6 +3,16 @@
 All notable changes to Echo are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/) and versions use [Semantic Versioning](https://semver.org/).
 
+## [0.2.8] - 2026-10-20
+
+### Fixed
+- **Terminal flash** — spawning console tools (`yt-dlp --version`, `reg`/`powershell` for the machine fingerprint, `whisper-cli`) briefly flashed a terminal window when opening Settings or at startup. Every child process now runs with `CREATE_NO_WINDOW`.
+
+## [0.2.7] - 2026-10-20
+
+### Added
+- **Playback diagnostic log** — raw engine errors (yt-dlp stderr, audio failures, retry/crossfade faults) now persist to `%APPDATA%/dev.echo.app/playback-diag.log` (rotated at 256 KB). Settings › Motore › "Apri log" reveals the file for bug reports.
+
 ## [0.2.6] - 2026-10-20
 
 ### Added
