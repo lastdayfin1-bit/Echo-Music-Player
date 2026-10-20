@@ -3,6 +3,36 @@
 All notable changes to Echo are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/) and versions use [Semantic Versioning](https://semver.org/).
 
+## [0.2.4] - 2026-10-20
+
+### Fixed
+- **Disabled controls were invisible in light mode** — transport, footer, top bar and sidebar buttons now render as dimmed ink on the light glass instead of washing out to ghosts.
+
+## [0.2.3] - 2026-10-20
+
+### Added
+- **True Liquid Glass shell** — panels, top bar, cards and menus are translucent lenses: `blur(30px) saturate(1.8)`, 1px specular inner borders and soft floating shadows instead of opaque surfaces and hard chrome.
+- **Artwork ambient background** — the cover of the playing track becomes the blurred ambient backdrop of the whole app, crossfading on every track change.
+- **Artists page** — a dedicated view with your personal ranking (listening time), followed artists, similar picks and the global chart. The sidebar ARTISTI section header is now a link to it.
+- **Two-deck audio engine** — true crossfade and gapless transitions between tracks, with per-element HLS instances and a mid-track stall watchdog.
+- **Floating dock footer** — the player bar is a detached island with a thinner seekbar, a finer handle and a longer volume bar.
+
+### Changed
+- **White icons, one accent** — every glyph is white; the only surviving accent is azzurro. Painted SVG strokes/fills are normalised, not just CSS colour.
+- **Navigation** — Home lives in the top bar where genre browsing was; the sidebar Home row is now "Naviga per genere".
+- **Sleep timer** removed from the footer.
+
+### Fixed
+- **Light-mode icons no longer disappear** — painted SVG strokes and fills flip to ink on the crystal theme; icons sitting on artwork stay white with a soft shadow.
+- **Audio graph silence** — the bus reconnects during `ensureContext`, and a global pointerdown resumes the context for autoplay and deck transitions.
+- **DJ remix transitions** — timing and track selection reworked on the two-deck engine.
+
+## [0.2.2] - 2026-10-20
+
+### Added
+- **SoundCloud playlist importing** — paste a playlist URL or shortlink, Echo hydrates the metadata and creates native SoundCloud tracks (no wrong Deezer matches), reusing the SoundCloud playback path.
+- First pass of the **Liquid Glass** restyle across sidebars, cards, menus, settings, lyrics/cinema mode and the player chrome.
+
 ## [0.2.1] - 2026-10-03
 
 ### Fixed

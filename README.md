@@ -16,20 +16,31 @@ Your music, your library, your listening history — with synced lyrics, a built
 
 ## Download
 
-> Latest release: **[Echo v0.2.1](https://github.com/lastdayfin1-bit/Echo-Music-Player/releases/latest)**
+> Latest release: **[Echo v0.2.4](https://github.com/lastdayfin1-bit/Echo-Music-Player/releases/latest)**
 
 | Platform | File | Notes |
 |---|---|---|
-| Windows 10 / 11 (64-bit) | `Echo_0.2.1_x64-setup.exe` | NSIS installer — **recommended** |
-| Windows 10 / 11 (64-bit) | `Echo_0.2.1_x64_en-US.msi` | MSI installer (enterprise-friendly) |
+| Windows 10 / 11 (64-bit) | `Echo_0.2.4_x64-setup.exe` | NSIS installer — **recommended** |
+| Windows 10 / 11 (64-bit) | `Echo_0.2.4_x64_en-US.msi` | MSI installer (enterprise-friendly) |
 
 macOS and Linux builds are planned.
 
 ## What's new
 
+**0.2.4** — *Liquid Glass shell + a rebuilt audio engine.* (0.2.4 also fixes disabled controls being invisible in light mode)
+
+- **True Liquid Glass** — panels are translucent lenses now: deep backdrop blur, 1px specular borders and soft floating shadows. The now-playing cover becomes the blurred ambient background of the whole app.
+- **Floating dock player** — the footer is a detached island with a thinner seekbar, a finer handle and a longer volume bar. The sleep timer button is gone.
+- **White icons, one accent** — every glyph is white with a single azzurro accent; light mode flips painted strokes and fills to ink, while icons sitting on artwork stay readable.
+- **Artists page** — a dedicated view with your personal ranking, followed artists, similar picks and the global chart; the sidebar ARTISTI header is now a link.
+- **Two-deck audio engine** — true crossfade and gapless transitions between tracks, smarter DJ remix handoffs and a mid-track stall watchdog.
+- **Light-mode fixes** — icons no longer disappear on the crystal theme.
+
+### Previous highlights
+
 **0.2.1** — *artist data restored.* Deezer retired the chart/top endpoints the app relied on, which left artist pages without their popular tracks and the first-run picker without artists to choose from. Both are now rebuilt from the endpoints that are still served, so popular tracks, similar artists and suggestions load again.
 
-### 0.2.0 highlights
+**0.2.0**
 
 - **Better sound** — per-track level analysis: loudness normalisation plus real clipping protection (a measured peak ceiling), so loud masters no longer distort and quiet ones no longer disappear.
 - **Refined interface** — a new pixel wordmark, deeper panels and cards across the app, and crisper controls at every UI zoom level.
@@ -68,7 +79,7 @@ Full list in the [changelog](CHANGELOG.md).
 
 ### Windows
 
-1. Download `Echo_0.2.1_x64-setup.exe` from the [latest release](https://github.com/lastdayfin1-bit/Echo-Music-Player/releases/latest).
+1. Download `Echo_0.2.4_x64-setup.exe` from the [latest release](https://github.com/lastdayfin1-bit/Echo-Music-Player/releases/latest).
 2. Run the installer.
 3. If Windows SmartScreen shows *"Windows protected your PC"*, click **More info → Run anyway**.
    Echo is not yet code-signed, so this warning is expected — the binary is built directly from the author's machine.
