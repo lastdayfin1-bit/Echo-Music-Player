@@ -16,18 +16,18 @@ Your music, your library, your listening history — with synced lyrics, a built
 
 ## Download
 
-> Latest release: **[Echo v0.2.4](https://github.com/lastdayfin1-bit/Echo-Music-Player/releases/latest)**
+> Latest release: **[Echo v0.2.5](https://github.com/lastdayfin1-bit/Echo-Music-Player/releases/latest)**
 
 | Platform | File | Notes |
 |---|---|---|
-| Windows 10 / 11 (64-bit) | `Echo_0.2.4_x64-setup.exe` | NSIS installer — **recommended** |
-| Windows 10 / 11 (64-bit) | `Echo_0.2.4_x64_en-US.msi` | MSI installer (enterprise-friendly) |
+| Windows 10 / 11 (64-bit) | `Echo_0.2.5_x64-setup.exe` | NSIS installer — **recommended** |
+| Windows 10 / 11 (64-bit) | `Echo_0.2.5_x64_en-US.msi` | MSI installer (enterprise-friendly) |
 
 macOS and Linux builds are planned.
 
 ## What's new
 
-**0.2.4** — *Liquid Glass shell + a rebuilt audio engine.* (0.2.4 also fixes disabled controls being invisible in light mode)
+**0.2.5** — *Liquid Glass shell + a rebuilt audio engine.* (fixes light-mode icons and shows friendly error toasts)
 
 - **True Liquid Glass** — panels are translucent lenses now: deep backdrop blur, 1px specular borders and soft floating shadows. The now-playing cover becomes the blurred ambient background of the whole app.
 - **Floating dock player** — the footer is a detached island with a thinner seekbar, a finer handle and a longer volume bar. The sleep timer button is gone.
@@ -79,7 +79,7 @@ Full list in the [changelog](CHANGELOG.md).
 
 ### Windows
 
-1. Download `Echo_0.2.4_x64-setup.exe` from the [latest release](https://github.com/lastdayfin1-bit/Echo-Music-Player/releases/latest).
+1. Download `Echo_0.2.5_x64-setup.exe` from the [latest release](https://github.com/lastdayfin1-bit/Echo-Music-Player/releases/latest).
 2. Run the installer.
 3. If Windows SmartScreen shows *"Windows protected your PC"*, click **More info → Run anyway**.
    Echo is not yet code-signed, so this warning is expected — the binary is built directly from the author's machine.

@@ -3,6 +3,14 @@
 All notable changes to Echo are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/) and versions use [Semantic Versioning](https://semver.org/).
 
+## [0.2.5] - 2026-10-20
+
+### Fixed
+- **Active icons invisible in light mode** — the dark-mode fill override had higher CSS specificity than the ink rule, so fill-based glyphs (play/pause) stayed white on the crystal theme. Dark icon overrides are now scoped to `html:not(.light-mode)` and `currentColor` fills follow the element's colour: ink on glass, white on artwork.
+- **Raw technical errors in toasts** — every remaining yt-dlp/Rust error shape (preview-gating, extractor crashes, age-gate, premiere, members-only, filesystem errors) maps to a friendly message; uncatalogued errors no longer leak raw text into the UI. Download, Mini Player and yt-dlp-update failures go through the same formatter.
+- **Playback stuck on autoplay block** — a `NotAllowedError` used to leave the track buffering forever with no feedback; the footer now unsticks and the next user gesture resumes the track.
+- **Error toasts readable** — they now stay visible ~5s instead of 2.5s.
+
 ## [0.2.4] - 2026-10-20
 
 ### Fixed
